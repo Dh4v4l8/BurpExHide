@@ -1,0 +1,13 @@
+# Ignore temporary compilation build folder
+/build/
+*.class
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.vscode/
+
+# Note: We are deliberately keeping BurpExHide.jar in the repo so users can easily download and install it!
+!BurpExHide.jar
