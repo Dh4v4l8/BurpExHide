@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.dh4v4l8'
+version = '3.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'net.portswigger.burp.extensions:montoya-api:2025.12'
+}
+
+jar {
+    baseName = 'BurpExHide'
+    version = ''
+}
